@@ -1,6 +1,6 @@
 const pa11y = require("pa11y");
 
-pa11y("localhost:8080", {
+pa11y("localhost:3000", {
   includeWarnings: true,
   standard: "WCAG2AA",
   level: "notice",

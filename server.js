@@ -32,7 +32,7 @@ app.get("/", function(req, res) {
     return res.redirect("/login");
   }
 
-  res.sendFile(path.join(__dirname, "site", "index.html"));
+  res.sendFile(path.join(__dirname, "site", "dashboard.html"));
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

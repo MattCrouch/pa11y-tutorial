@@ -1,0 +1,119 @@
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+.nav {
+  background-color: var(--nav-color);
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav > .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .profile-picture {
+  height: 2rem;
+  display: block;
+}
+
+.header {
+  background-color: var(--primary-color);
+  margin-top: 4rem;
+  padding: 1rem 0;
+}
+
+.header > .container > h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header > .container > .image-container {
+  display: none;
+}
+
+.header .profile-picture {
+  display: block;
+  width: 75%;
+  min-width: 5rem;
+  margin: 0 auto;
+}
+
+.service {
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 0.25rem 0;
+  min-height: 2rem;
+}
+
+.service.operational {
+  background-image: url("/static/tick.svg");
+}
+
+.service.issue {
+  background-image: url("/static/cross.svg");
+}
+
+.service .details {
+  font-size: 0.5rem;
+  font-style: italic;
+}
+
+.service .details.hidden {
+  display: none;
+}
+
+.updates .published {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    padding: 2rem 0;
+  }
+
+  .header > .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header > .container > h2 {
+    flex: 2;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .header > .container > .image-container {
+    display: block;
+    margin-left: 2rem;
+    flex: 1;
+  }
+
+  .news {
+    display: flex;
+  }
+
+  .services {
+    flex: 1;
+    padding-right: 1rem;
+  }
+
+  .updates {
+    flex: 1;
+    padding-left: 1rem;
+  }
+}
