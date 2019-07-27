@@ -29,7 +29,7 @@ app.get("/logout", function(req, res) {
 app.get("/", function(req, res) {
   if (req.cookies[COOKIE_NAME] !== "1") {
     // Not logged in
-    return res.redirect("/");
+    return res.redirect("/login");
   }
 
   res.sendFile(path.join(__dirname, "site", "index.html"));
