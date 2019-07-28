@@ -33,11 +33,12 @@
   width: 100%;
 }
 
+.feedback {
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
   .login-form {
     padding: 2rem;
-  }
-
-  .login-form input {
   }
 }
