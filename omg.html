@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Accessibility Report For "http://localhost:3000/" (Sun Jul 28 2019 16:17:19 GMT+0100 (British Summer Time))</title>
+
+	<style>
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+			color: #333;
+		}
+		li {
+			margin-bottom: 15px;
+		}
+		h1, h2, p, pre, ul {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		h1 {
+			margin-bottom: 10px;
+			font-size: 24px;
+			line-height: 24px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		pre {
+			white-space: pre-wrap;
+			overflow: auto;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 25px;
+		}
+
+		.counts {
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		.count {
+			display: inline-block;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+
+		.clean-list {
+			margin-left: 0;
+			padding-left: 0;
+			list-style: none;
+		}
+		.results-list {
+			margin-top: 30px;
+		}
+
+		.result {
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+		.error {
+			background-color: #fdd;
+			border-color: #ff9696;
+		}
+		.warning {
+			background-color: #ffd;
+			border-color: #e7c12b;
+		}
+		.notice {
+			background-color: #eef4ff;
+			border-color: #b6d0ff;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="page">
+
+		<h1>Accessibility Report For "http://localhost:3000/"</h1>
+		<p>Generated at: Sun Jul 28 2019 16:17:19 GMT+0100 (British Summer Time)</p>
+
+		<p class="counts">
+			<span class="count error">3 errors</span>
+			<span class="count warning">10 warnings</span>
+			<span class="count notice">0 notices</span>
+		</p>
+
+		<ul class="clean-list results-list">
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img class=&quot;profile-picture&quot; src=&quot;/static/profile-picture.svg&quot;&gt; (select with "html &gt; body &gt; div:nth-child(1) &gt; div &gt; div &gt; img")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.35:1. Recommendation:  change text colour to #7954ff.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail</p>
+				<pre>&lt;a href=&quot;/logout&quot;&gt;Log out&lt;/a&gt; (select with "html &gt; body &gt; div:nth-child(1) &gt; div &gt; a")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: The heading structure is not logically nested. This h2 element appears to be the primary document heading, so should be an h1 element.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141</p>
+				<pre>&lt;h2&gt;Welcome, Matt.&lt;/h2&gt; (select with "html &gt; body &gt; div:nth-child(2) &gt; div &gt; h2")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: The heading structure is not logically nested. This h2 element should be an h1 to be properly nested.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141</p>
+				<pre>&lt;h2&gt;Welcome, Matt.&lt;/h2&gt; (select with "html &gt; body &gt; div:nth-child(2) &gt; div &gt; h2")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img class=&quot;profile-picture&quot; src=&quot;/static/profile-picture.svg&quot;&gt; (select with "html &gt; body &gt; div:nth-child(2) &gt; div &gt; div &gt; img")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: The heading structure is not logically nested. This h4 element should be an h3 to be properly nested.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141</p>
+				<pre>&lt;h4&gt;Latest News&lt;/h4&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; h4")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage</p>
+				<pre>&lt;div&gt;Briefing&lt;/div&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; div")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage</p>
+				<pre>&lt;div&gt;Comms&lt;/div&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; div &gt; div:nth-child(1) &gt; div:nth-child(3) &gt; div")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage</p>
+				<pre>&lt;div&gt;Notifications&lt;/div&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; div &gt; div:nth-child(1) &gt; div:nth-child(4) &gt; div")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage</p>
+				<pre>&lt;div&gt;Payments&lt;/div&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; div &gt; div:nth-child(1) &gt; div:nth-child(5) &gt; div:nth-child(1)")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage</p>
+				<pre>&lt;div&gt;
+                &lt;a href=&quot;#&quot;&gt;Cl...&lt;/div&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; div &gt; div:nth-child(1) &gt; div:nth-child(5) &gt; div:nth-child(2)")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage</p>
+				<pre>&lt;a href=&quot;#&quot;&gt;Click here&lt;/a&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; div &gt; div:nth-child(1) &gt; div:nth-child(5) &gt; div:nth-child(2) &gt; a")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage</p>
+				<pre>&lt;div&gt;User Management&lt;/div&gt; (select with "html &gt; body &gt; div:nth-child(3) &gt; div &gt; div &gt; div:nth-child(1) &gt; div:nth-child(6) &gt; div")</pre>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>
