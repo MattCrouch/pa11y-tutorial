@@ -1,0 +1,33 @@
+.centred {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: var(--primary-color);
+  border-radius: 0.25rem;
+  padding: 2rem;
+}
+
+.login-form input {
+  border: none;
+  background-color: var(--background-color);
+  border-radius: 0.25rem;
+  display: block;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+.login-form input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
