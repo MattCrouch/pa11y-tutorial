@@ -13,19 +13,12 @@
   <body>
     <div class="centred">
       <form class="login-form" method="POST" enctype="multipart/form-data">
-        <input
-          type="text"
-          autocapitalize="none"
-          placeholder="Username"
-          name="username"
-          required
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          name="password"
-          required
-        />
+        <div class="field">
+          <input type="text" autocapitalize="none" name="username" required />
+        </div>
+        <div class="field">
+          <input type="password" name="password" required />
+        </div>
 
         <input type="submit" value="Log in" />
       </form>
