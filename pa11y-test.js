@@ -3,9 +3,8 @@ const html = require("pa11y-reporter-html");
 const pa11y = require("pa11y");
 
 const defaultOptions = {
+  includeNotices: true,
   includeWarnings: true,
-  standard: "WCAG2AA",
-  level: "notice",
   log: {
     debug: console.log,
     error: console.error,
