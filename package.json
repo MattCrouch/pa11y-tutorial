@@ -1,7 +1,7 @@
 {
-  "name": "pa11y-test",
+  "name": "pa11y-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example test site and Pa11y setup",
   "main": "index.js",
   "scripts": {
     "server": "node server.js",
