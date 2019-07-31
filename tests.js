@@ -10,6 +10,12 @@ const runTests = async () => {
       Cookie: "is-logged-in=1"
     }
   });
+  await pa11yTest("more-info", "localhost:3000", {
+    actions: ["click element .issue a"],
+    headers: {
+      Cookie: "is-logged-in=1"
+    }
+  });
 };
 
 runTests();
